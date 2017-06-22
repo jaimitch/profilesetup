@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Survey</title>
+  </head>
+  <body>
+    <h3>First, please provide your contact information</h3>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email">
+        <label for="number">Phone Number</label>
+        <input type="number" id="number" name="number">
+      </fieldset>
+
+
+    <h3>Which style of coffee do you prefer? (Choose 1)</h3>
+
+  <fieldset>
+  <input type="radio" name="chooseone" value="espresso">
+  <label for="espresso">Espresso</label>
+  <input type="radio" name="chooseone" value="americano">
+  <label for="americano">Americano</label>
+  <input type="radio" name="chooseone" value="cappucino">
+  <label for="cappucino">Cappucino</label>
+  <input type="radio" name="chooseone" value="mocha">
+  <label for="mocha">Mocha</label>
+  <input type="radio" name="chooseone" value="latte">
+  <label for="latte">Latte</label>
+  </fieldset>
+
+
+<h3>Do you add anything? (Check all the apply)</h3>
+
+  <fieldset>
+    <input type="radio" value="sugar">
+    <label for="sugar">Sugar</label>
+    <input type="radio" value="artificialSweetner">
+    <label for="artificialSweetner">Artificial Sweetner</label>
+    <input type="radio" value="cream">
+    <label for="cream">Cream</label>
+  </fieldset>
+
+
+<h3>What size do you normally order?(Choose 1 option)</h3>
+
+  <fieldset>
+    <input type="radio" name="chooseone" value="small">
+    <label for="small">Small</label>
+    <input type="radio" name="chooseone" value="medium">
+    <label for="medium">Medium</label>
+    <input type="radio" name="chooseone" value="large">
+    <label for="large">Large</label>
+  </fieldset>
+
+
+<h3>Would you like to share a photo of your favorite coffee?</h3>
+  <fieldset>
+    <input type="radio" name="chooseone" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" name="chooseone" value="no">
+    <label for="no">No</label>
+
+    <input type="file" name="pic" value="image/*">
+    <input type="submit">
+  </fieldset>
+
+</form>
+  </body>
+</html>
